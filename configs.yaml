@@ -1,0 +1,19 @@
+# 原始数据
+wechat_path: 'contacts.csv'  # 微信联系人列表
+font_path: '微软雅黑.ttf'  # 字体文件
+
+# 文件夹路径
+head_img_path: '1_head_img'  # 头像保存路径
+text_img_path: '2_text_img'  # 加字后图片保存路径
+excel_save_path: '3_output'  # excel输出路径
+
+# 文字设置
+add_text: '元宵节快乐！'  # 在图片右侧，名字下方增加的祝福语
+font_size: 15  # 字体大小
+font_color: [0, 0, 0] # 字体颜色，黑色
+output_file_name: '元宵快乐'  # 输出文件名
+
+# 过程控制
+download_head_img_mode: True  # 是否下载好友头像
+add_text_mode: True  # 是否为图片增加文字
+img_to_excel_mode: True  # 是否将图片转化为表格
